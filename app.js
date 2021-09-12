@@ -10,7 +10,7 @@ const app = express();
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
-console.log("git tes")
+console.log("git testing complede");
 app.use(express.json());
 app.use(express.static(`${__dirname}/public`));
 
