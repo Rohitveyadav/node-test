@@ -11,6 +11,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 console.log("git testing complede");
+console.log("source js");
 app.use(express.json());
 app.use(express.static(`${__dirname}/public`));
 
